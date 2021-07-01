@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button"
+            android:text="Bottom Tab Navigation Light"
+            android:textAllCaps="false"
+            android:padding="5dp"
+            android:layout_margin="10dp" />
+
+
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button"
+            android:text="Bottom Tab Navigation Dark"
+            android:textAllCaps="false"
+            android:padding="5dp"
+            android:layout_margin="10dp" />
+
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button"
+            android:text="Bottom Tab Navigation Color Shift"
+            android:textAllCaps="false"
+            android:padding="5dp"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button"
+            android:text="Bottom Tab Navigation Night"
+            android:textAllCaps="false"
+            android:padding="5dp"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button"
+            android:text="Bottom Tab Navigation Icon"
+            android:textAllCaps="false"
+            android:padding="5dp"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button"
+            android:text="Bottom Tab Navigation Animation "
+            android:textAllCaps="false"
+            android:padding="5dp"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button"
+            android:text="Bottom Tab Navigation Badge Blink"
+            android:textAllCaps="false"
+            android:padding="5dp"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button"
+            android:text="Bottom Tab Navigation Simple"
+            android:textAllCaps="false"
+            android:padding="5dp"
+            android:layout_margin="10dp" />
+
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
